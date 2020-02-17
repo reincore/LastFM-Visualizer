@@ -40,7 +40,9 @@ export const LastFmData = ({ userName, apiKey }) => {
     return (
       <div className="currently-listening-component">
         '<a href={`http://www.last.fm/user/${userName}`}>{userName}</a>' is
-        currently listening to: {songName} by {artistName}
+        currently listening to:{" "}
+        <span className="emphasis-name song">{songName}</span> by{" "}
+        <span className="emphasis-name artist">{artistName}</span>
       </div>
     );
   };
