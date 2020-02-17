@@ -28,7 +28,9 @@ export const LastFmData = ({ userName, apiKey }) => {
     }
 
     if (!track) {
-      return <p>Loading...</p>;
+      return (
+        <p className="currently-listening-component loading">Loading...</p>
+      );
     }
 
     const [
@@ -36,10 +38,10 @@ export const LastFmData = ({ userName, apiKey }) => {
     ] = track;
 
     return (
-      <h3>
+      <div className="currently-listening-component">
         '<a href={`http://www.last.fm/user/${userName}`}>{userName}</a>' is
         currently listening to: {songName} by {artistName}
-      </h3>
+      </div>
     );
   };
 

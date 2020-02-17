@@ -5,6 +5,7 @@ import "./App.css";
 import MainPage from "./Pages/mainPage.jsx";
 
 function App() {
+  require("dotenv").config();
   return (
     <div className="App">
       <header className="App-header">
@@ -15,12 +16,10 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Learn React
+          ReactJS Last.fm Visualizer
         </a>
       </header>
-      <div>
-        <MainPage userName="orleanth" />
-      </div>
+      <MainPage userName="orleanth" />
     </div>
   );
 }
