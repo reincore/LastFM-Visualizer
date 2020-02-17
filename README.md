@@ -1,10 +1,14 @@
 # LastFM-Visualizer
 
-A project to visualize Last.FM user listening (scrobble) data, based on Create React App by Facebook.
+A project to visualize Last.FM user listening (scrobble) data, based on Create React App by Facebook. Currently a work-in-progress: for the time being only showing "currently listening" data of a hard-coded username on Last.FM. The userName property in App.js can be changed. The D3 visualizations and interactivity are yet to come.
 
-Currently the repo uses the implementation of [Sam Kitson](https://medium.com/@samkitson)'s article which can be reached [on this link](https://medium.com/@samkitson/fetching-and-displaying-scrobbled-data-with-react-and-the-last-fm-api-28d048386da8).
+The repo uses the implementation of [Sam Kitson](https://medium.com/@samkitson)'s article which can be reached [on this link](https://medium.com/@samkitson/fetching-and-displaying-scrobbled-data-with-react-and-the-last-fm-api-28d048386da8).
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+
+## How to use this app
+
+Simple edit the
 
 ## Available Scripts
 
@@ -48,27 +52,3 @@ You don’t have to ever use `eject`. The curated feature set is suitable for sm
 You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
 To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `yarn build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
