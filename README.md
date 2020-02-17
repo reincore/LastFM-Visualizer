@@ -1,7 +1,8 @@
-# LastFM-Visualizer 
+# LastFM-Visualizer
+
 A project to visualize Last.FM user listening (scrobble) data, based on Create React App by Facebook.
 
-Currently the repo uses the implementation of Sam Kitson (https://medium.com/@samkitson) which can be reached on this link: https://medium.com/@samkitson/fetching-and-displaying-scrobbled-data-with-react-and-the-last-fm-api-28d048386da8
+Currently the repo uses the implementation of [Sam Kitson](https://medium.com/@samkitson)'s article which can be reached [on this link](https://medium.com/@samkitson/fetching-and-displaying-scrobbled-data-with-react-and-the-last-fm-api-28d048386da8).
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
