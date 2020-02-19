@@ -16,7 +16,8 @@ body,
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+    animation: App-logo-spin infinite 10s ease-in-out;
+    ;
   }
 }
 
@@ -40,7 +41,7 @@ body,
   display: flex;
   justify-content: center;
   align-items: center;
-  font-size: calc(8px+2vmin);
+  font-size: calc(8px + 2vw);
   font-weight: 500;
   background: #61dafb;
 }
@@ -51,9 +52,26 @@ body,
   font-weight: 500;
 }
 
+.user-origin-container {
+  margin: 0 01vw;
+  font-size: calc(10px + 1vw);
+  font-weight: 500;
+}
+
 .emphasis-name {
   color: #fafafa;
   text-shadow: 1px 1px #000000;
+}
+
+.fetch-button {
+  margin-top: 3px;
+  border: none;
+  min-height: 25px;
+  min-width: 75px;
+}
+
+.fetch-button:hover {
+  background:
 }
 
 @keyframes App-logo-spin {
